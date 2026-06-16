@@ -8,7 +8,7 @@ export default function DashboardScreen({ user, onLogOut, onNavigate }) {
   return (
     <div className="screen active" id="screen-dashboard">
       <div className="screen-header">
-        <img src="/icon.png" className="header-logo-img" alt="Логотип" />
+        <img src="icon.png" className="header-logo-img" alt="Логотип" />
         <h2 id="dashboard-user-title" style={{ fontSize: '16px' }}>СберБанк</h2>
       </div>
       
