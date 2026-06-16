@@ -22,7 +22,7 @@ export default function PinScreen({ user, onPinSuccess }) {
   return (
     <div className="screen active" id="screen-pin">
       <div className="screen-header">
-        <img src="/icon.png" className="header-logo-img" alt="Логотип" />
+        <img src="icon.png" className="header-logo-img" alt="Логотип" />
         <h2 id="pin-greeting">Привет,<br/>{user.name}</h2>
       </div>
       
