@@ -81,7 +81,7 @@ export default function App() {
       title: `Перевод: ${targetName}`,
       amount: amount,
       type: "minus",
-      icon: "/icon.png"
+      icon: "icon.png"
     });
 
     setDb(newDb);
