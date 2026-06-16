@@ -4,7 +4,7 @@ export default function HistoryScreen({ user, onBack }) {
   return (
     <div className="screen active" id="screen-history" style={{ zIndex: 4 }}>
       <div className="screen-header">
-        <img src="/icon.png" className="header-logo-img" alt="Логотип" />
+        <img src="icon.png" className="header-logo-img" alt="Логотип" />
         <h2>История</h2>
       </div>
       
