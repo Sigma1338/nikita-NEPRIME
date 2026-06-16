@@ -27,7 +27,7 @@ export default function LoginScreen({ onValidCard, showToast }) {
   return (
     <div className="screen active" id="screen-login">
       <div className="screen-header">
-        <img src="/icon.png" className="header-logo-img" alt="Логотип" />
+        <img src="icon.png" className="header-logo-img" alt="Логотип" />
         <h2>Вход в Сбер</h2>
       </div>
       
