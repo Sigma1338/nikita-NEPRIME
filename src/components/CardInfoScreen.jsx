@@ -10,7 +10,7 @@ export default function CardInfoScreen({ cardNumber, user, onBack }) {
   return (
     <div className="screen active" id="screen-card-info" style={{ zIndex: 3 }}>
       <div className="screen-header">
-        <img src="/icon.png" className="header-logo-img" alt="Логотип" />
+        <img src="icon.png" className="header-logo-img" alt="Логотип" />
         <h2>Данные карты</h2>
       </div>
       
