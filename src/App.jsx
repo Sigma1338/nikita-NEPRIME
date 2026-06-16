@@ -72,7 +72,7 @@ export default function App() {
         title: `Перевод от ${currentUserData.name}`,
         amount: amount,
         type: "plus",
-        icon: "/icon.png"
+        icon: "icon.png"
       });
     }
 
